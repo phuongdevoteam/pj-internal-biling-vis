@@ -1,2 +1,14 @@
 *.json
 __pycache__/*
+
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform
+.terraform.lock.hcl
+
+.ci-cd
+
+cloud_run_app/
+
+env/
